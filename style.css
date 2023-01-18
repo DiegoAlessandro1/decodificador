@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+p{
+    color: #2a0c96;
+    margin-left: 2%;
+}
+
+.imagem{
+    max-width: 700;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+
+
+#input-texto{
+    display: flex;
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: #2a0c96;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 0px;
+    text-transform: lowercase;
+    margin-left: 2%;
+    
+}
+
+.output{
+    position: relative;
+    bottom: 350px;
+    display:inline;
+    float: right;
+    border: 3px solid #2a0c96;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+}
+
+.image-output{
+    
+    display: center;
+    flex-direction: row-reverse;
+    max-width: 350px;
+    max-height: 400px;
+    margin-top: 0;
+    margin-right: 3%;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+}
+
+.btn-criptografar{
+    border: 2px solid #2a0c96;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #09017c;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.btn-descriptografar{
+    border: 2px solid #2a0c96;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #09017c;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.btn-criptografar:hover{
+    border: 2px solid #960c0c;
+    transition: 0.5s all;
+}
+
+
+.btn-descriptografar:hover{
+    border: 2px solid #960c0c;
+    transition: 0.5s all;
+}
