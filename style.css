@@ -42,7 +42,7 @@ p{
     
 }
 
-.output{
+#output{
     position: relative;
     bottom: 350px;
     display:inline;
@@ -98,4 +98,16 @@ p{
 .btn-descriptografar:hover{
     border: 2px solid #960c0c;
     transition: 0.5s all;
+}
+
+.btn-copiar{
+    border: 2px solid #09017c;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7c0160;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
 }
