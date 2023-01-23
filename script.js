@@ -11,7 +11,7 @@ function criptografar(){
     .replace(/o/g, "ober")
     .replace(/u/g, "ufat")
 
-    document.getElementById('output').innerHTML = '<textarea reandoly id="input-texto">' + resultCriptografar +'</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">copiar</button>'
+    document.getElementById('output').innerHTML = '<textarea reandoly id="input-texto">' + resultCriptografar +'</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>'
 }
 
 function descriptografar(){
@@ -28,10 +28,8 @@ function descriptografar(){
 }
 
 function copiar(){
-    var textCop = document.getElementById('output').innerHTML = '<textarea reandoly id="input-texto">' + resultDescriptografar + '</textarea>' + '<button class="btn-copiar" id="copiar"  onclick="copiar()">Copiado</button>';
-
-    textCop.select();
-    document.execCommand('copy');
+    var copiar = document.getElementById("output");
+    document.execCommand("copy");
     alert("Texto Copiado");
 
 }
